@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="counter" style="text-align: center;"></div>
+    <div class="container">
+        
+        <div class="row">
+            
+          <div class="col-4 box">
+            <img src="/img/rock.jpg" alt="Rock Image" style="height: 100px;">
+            <button id="rock-btn">Rock</button>
+          </div>
+          <div class="col-4 box">
+            <img src="/img/paper.jpg" alt="Paper Image" style="height: 100px;">
+            <button id="paper-btn">Paper</button>
+          </div>
+          <div class="col-4 box">
+            <img src="/img/scissors.jpg" alt="Scissors Image" style="height: 100px;">
+            <button id="scissors-btn">Scissors</button>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-4 box" id="result1">
+                <h3 id="h3-ourSelection"></h3>
+            </div>
+            <div class="col-4 box" id="versus_box">
+                <h1>VS</h1>
+            </div>
+            <div class="col-4 box" id="result2">
+                <h3 id="h3-enemy"></h3>
+            </div>
+        </div>
+        
+      </div>
+
+    
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
